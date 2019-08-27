@@ -1,0 +1,32 @@
+#container {
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    border: 3px solid brown;
+    height: 100%;
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, h2, h3 {
+    padding: 0;
+    margin: 5px;
+}
+
+img {
+    width: 236px
+}
+
+main {
+    display: flex; 
+    flex-direction: column;   
+    flex-wrap: wrap-reverse;
+    max-height: 800px;
+    justify-content: space-around;
+    /* flex: 2; */
+}
