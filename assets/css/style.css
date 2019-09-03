@@ -28,8 +28,10 @@ img {
 
     display: flex; 
     flex-flow: column wrap;
+    align-items: center;
     height: 100vw;
     max-height: 1200px;
+
 }
 
 @media (max-width: 415px) {
@@ -43,5 +45,7 @@ img {
 
     #imgContainer {
         margin: 0;
+
+        height: 150vw;
     }
 }
